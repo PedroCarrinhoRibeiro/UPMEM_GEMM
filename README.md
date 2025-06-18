@@ -4,9 +4,10 @@
 
 UPMEM and C parallel implementation of the General Matrix multiplication (GEMM) for UPMEM DIMMs. The multiplication is conducted using Multi DPUs and Mutithreading.
 The implementation follows a host-device fashion and the MRAM banks of the UPMEM DIMMs are used.
+
+I highly advise that you read https://ieeexplore.ieee.org/abstract/document/10768222 before using the code.
+
 If you plan on using this code or parts of this code please cite: https://ieeexplore.ieee.org/abstract/document/10768222
-I highly advise that you read it before using the code.
-Author: Pedro Jose Carrinho Ribeiro
 
 ```
 @inproceedings{carrinho2024processing,
@@ -18,6 +19,8 @@ Author: Pedro Jose Carrinho Ribeiro
   organization={IEEE}
 }
 ```
+
+Author: Pedro Jose Carrinho Ribeiro
 
 ## How to run
 
