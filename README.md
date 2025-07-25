@@ -7,7 +7,7 @@ The implementation follows a host-device fashion and the MRAM banks of the UPMEM
 
 I highly advise that you read https://ieeexplore.ieee.org/abstract/document/10768222 before using the code.
 
-If you plan on using this code or parts of this code please cite: https://ieeexplore.ieee.org/abstract/document/10768222
+If you plan on using this code or parts of this code please cite:
 
 ```
 @inproceedings{carrinho2024processing,
