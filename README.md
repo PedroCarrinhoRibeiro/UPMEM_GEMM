@@ -2,10 +2,10 @@
 
 
 
-UPMEM and C parallel implementation of the General Matrix multiplication (GEMM) for UPMEM DIMMs. The multiplication is conducted using Multi DPUs and Mutithreading as desccribed by Pedro Carrinho et al (https://ieeexplore.ieee.org/abstract/document/10768222).
+UPMEM and C parallel implementation of the General Matrix multiplication (GEMM) for UPMEM DIMMs. The multiplication is conducted using Multi DPUs and Mutithreading as desccribed by Pedro Carrinho et al (https://ieeexplore.ieee.org/abstract/document/10768222 and https://link.springer.com/article/10.1007/s11265-025-01974-7).
 The implementation follows a host-device fashion and the MRAM banks of the UPMEM DIMMs are used.
 
-I highly advise that you read https://ieeexplore.ieee.org/abstract/document/10768222 before using the code.
+I highly advise that you read https://ieeexplore.ieee.org/abstract/document/10768222 and https://link.springer.com/article/10.1007/s11265-025-01974-7 before using the code.
 
 If you plan on using this code or parts of this code please cite:
 
@@ -17,6 +17,19 @@ If you plan on using this code or parts of this code please cite:
   pages={7--12},
   year={2024},
   organization={IEEE}
+}
+```
+
+```
+@article{carrinho2026experimental,
+  title={An Experimental Exploration of In-Memory Computing for Multi-Layer Perceptrons},
+  author={Carrinho, Pedro and Moghadaspour, Hamid and Ferraz, Oscar and Dinis Ferreira, Jo{\~a}o and Falevoz, Yann and Silva, Vitor and Falcao, Gabriel},
+  journal={Journal of Signal Processing Systems},
+  volume={98},
+  number={1},
+  pages={1},
+  year={2026},
+  publisher={Springer}
 }
 ```
 
@@ -56,7 +69,7 @@ Either run on a UPMEM PIM-enabled machine or use UPMEM SDK: https://sdk.upmem.co
 
 ## Acknowledgements
 
-Please cite my article: https://ieeexplore.ieee.org/abstract/document/10768222
+Please cite my articles: https://ieeexplore.ieee.org/abstract/document/10768222 and https://link.springer.com/article/10.1007/s11265-025-01974-7
 
 ```
 @inproceedings{carrinho2024processing,
@@ -66,5 +79,18 @@ Please cite my article: https://ieeexplore.ieee.org/abstract/document/10768222
   pages={7--12},
   year={2024},
   organization={IEEE}
+}
+```
+
+```
+@article{carrinho2026experimental,
+  title={An Experimental Exploration of In-Memory Computing for Multi-Layer Perceptrons},
+  author={Carrinho, Pedro and Moghadaspour, Hamid and Ferraz, Oscar and Dinis Ferreira, Jo{\~a}o and Falevoz, Yann and Silva, Vitor and Falcao, Gabriel},
+  journal={Journal of Signal Processing Systems},
+  volume={98},
+  number={1},
+  pages={1},
+  year={2026},
+  publisher={Springer}
 }
 ```
